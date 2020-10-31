@@ -1,4 +1,4 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/YungSamzy/auth/badge)](https://www.codefactor.io/repository/github/YungSamzy/auth)
+[![CodeFactor](https://www.codefactor.io/repository/github/yungsamzy/simpauth/badge)](https://www.codefactor.io/repository/github/yungsamzy/simpauth)
 
 # About 
  
