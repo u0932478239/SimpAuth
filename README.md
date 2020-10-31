@@ -7,9 +7,9 @@
 
 # Credits
 
-Original Source Code - https://bit.ly/2TEvYUL - Unkown (I don't actually know who leaked them first)
-cAuth - Fingu (The Best) - [Profile](https://github.com/Finguimbrine)
-Auth.GG - Outbuilt (Okay) - [Profile](https://github.com/Outbuilt)
+Original Source Code - https://bit.ly/2TEvYUL - Unkown (I don't actually know who leaked them first)  
+cAuth - Fingu (The Best) - [Profile](https://github.com/Finguimbrine)  
+Auth.GG - Outbuilt (Okay) - [Profile](https://github.com/Outbuilt)  
 
 # Notes
 
