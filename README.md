@@ -1,5 +1,13 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/yungsamzy/simpauth/badge)](https://www.codefactor.io/repository/github/yungsamzy/simpauth)
 
+# Changelog
+
+v1.0 - Initial Release
+
+# Goals
+
+Add Encryption
+
 # About 
  
 This is going to be a free open source .NET (And more later) authentication systm.  
