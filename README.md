@@ -1,4 +1,4 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/yungsamzy/simpauth/badge)](https://www.codefactor.io/repository/github/yungsamzy/simpauth)
+Download at download.html
 
 # Changelog
 
