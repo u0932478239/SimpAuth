@@ -1,0 +1,10 @@
+[01-Oct-2020 18:39:39 America/New_York] PHP Parse error:  syntax error, unexpected '$username' (T_VARIABLE) in /home/akizibcq/public_html/universal/api.php on line 281
+[01-Oct-2020 18:39:45 America/New_York] PHP Parse error:  syntax error, unexpected '$username' (T_VARIABLE) in /home/akizibcq/public_html/universal/api.php on line 281
+[01-Oct-2020 18:39:57 America/New_York] PHP Parse error:  syntax error, unexpected '$username' (T_VARIABLE) in /home/akizibcq/public_html/universal/api.php on line 281
+[01-Oct-2020 18:40:37 America/New_York] PHP Parse error:  syntax error, unexpected '$username' (T_VARIABLE) in /home/akizibcq/public_html/universal/api.php on line 281
+[01-Oct-2020 18:41:02 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/akizibcq/public_html/universal/api.php on line 387
+[01-Oct-2020 18:41:07 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/akizibcq/public_html/universal/api.php on line 387
+[02-Oct-2020 02:52:48 Europe/Paris] PHP Notice:  Undefined index: license in /home/akizibcq/public_html/universal/api.php on line 430
+[02-Oct-2020 02:53:37 Europe/Paris] PHP Notice:  Undefined variable: programid in /home/akizibcq/public_html/universal/api.php on line 534
+[09-Oct-2020 21:34:35 Europe/Paris] PHP Notice:  Undefined index: api_key in /home/akizibcq/public_html/universal/api.php on line 35
+[09-Oct-2020 21:35:08 Europe/Paris] PHP Notice:  Undefined index: api_key in /home/akizibcq/public_html/universal/api.php on line 35
