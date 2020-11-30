@@ -83,7 +83,7 @@
 
                                 <li class="nav-item"><a href="#principal" class="nav-link">Home</a></li>
                                 <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
-                                <li class="nav-item"><a href="#info" class="nav-link">Info</a></li>
+                                <li class="nav-item"><a href="https://github.com/YungSamzy/SimpAuth" target="_blank" class="nav-link">GitHub</a></li>
                                 <li class="nav-item"><a href="../tos.php" class="nav-link">Terms</a></li>
                         
 
@@ -216,94 +216,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- Start Pricing Area -->
-        <section class="pricing-area ptb-120 pb-0" id="info">
-            <div class="container">
-                <div class="section-title text-center">
-                    <span class="bg-ff5d24">Info</span>
-                    <p>Before you join up, you should read this.
-                    </p>
-                </div>
-                <!--<div class="row">-->
-                    <!--<div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-pricing-box bg-3fc581">
-                            <div class="icon">
-                                <i class="fas fa-socks"></i>
-                            </div>
-                            <h3>Free plan</h3>
-                            <ul class="pricing-features-list">
-                                <li><i class="fas fa-check"></i> 1 Program</li>
-                                <li><i class="fas fa-check"></i> 50 Users per program</li>
-                                <li><i class="fas fa-check"></i> 75 Licenses per program</li>                                
-                                <li><i class="fas fa-check"></i> 5 Server-side variables</li>                                                                
-                                <li><i class="fas fa-check"></i> 3 Server-side files</li>                                    
-                                <li><i class="fas fa-check"></i> Max. 300 KB Per file server-side</li>                                                                                            
-                                <li><i style="color: red;" class="fas fa-times"></i> Change license prefix</li>
-                                <li><i style="color: red;" class="fas fa-times"></i> API Access</li>
-                                <li><i style="color: red;" class="fas fa-times"></i> Prioritised Support</li>
-                            </ul>
-                            <div class="price">
-                                FREE <span>/Lifetime</span>
-                            </div>
-                            <a href="../account/register.php" class="default-btn">Start for free</a>
-                        </div>
-                    </div>-->
-                    <center><div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-pricing-box">
-                            <!--<div class="icon">
-                                <i class="flaticon-health-check"></i>
-                            </div>-->
-                            <h3>Credits</h3>
-                            <ul class="pricing-features-list">
-                                <ul class="pricing-features-list">
-                                <li>Original Source Code  <a style="color: aquamarine;" href="https://bit.ly/2TEvYUL" target="_blank">Download</a></li>
-                                <li>cAuth  <a style="color: aquamarine;" href="https://cauth.me" target="_blank">Take A Look</a></li>
-                                <li>Auth.GG  <a style="color: aquamarine;" href="https://auth.gg" target="_blank">Take A Look</a></li>
-                            </ul>
-                            </ul>
-                            <br>
-                            <br>
-			                <h3>Project Info</h3>
-                            <ul class="pricing-features-list">
-                                <ul class="pricing-features-list">
-                                <li>GitHub  <a style="color: aquamarine;" href="https://github.com/YungSamzy/SimpAuth" target="_blank">Take A Look</a></li>
-                                <li>Discord Server  <a style="color: aquamarine;" href="https://discord.gg/tW39P3qMe6" target="_blank">Join</a></li>
-                            </ul>
-                            </ul>
-                        </div>
-                    </div></center>
-                    <!--<div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3 col-sm-6 offset-sm-3">
-                        <div class="single-pricing-box bg-f59f00">
-                            <div class="icon">
-                                <i class="flaticon-health-check"></i>
-                            </div>
-                            <h3>Largest Project</h3>
-
-                            <ul class="pricing-features-list">
-                                <li><i class="fas fa-check"></i> Unlimited Programs</li>
-                                <li><i class="fas fa-check"></i> Unlimited Users per program</li>
-                                <li><i class="fas fa-check"></i> Unlimited Licenses per program</li>                                
-                                <li><i class="fas fa-check"></i> Unlimited server sided variables</li>
-                                <li><i class="fas fa-check"></i> Unlimited server-side files</li>                                    
-                                <li><i class="fas fa-check"></i> Max. 5 MB Per file server-side</li>     
-                                <li><i class="fas fa-check"></i> Change license prefix</li>
-                                <li><i class="fas fa-check"></i> API Key access</li>
-                                <li><i class="fas fa-check"></i> Support the project</li>
-                                <li><i class="fas fa-check"></i> Prioritised Support</li>
-                            </ul>
-                            
-                            <div class="price">
-                                Free <span>/Lifetime</span>
-                            </div>
-
-                            <a href="#" class="default-btn">Buy Now</a>
-                        </div>
-                    </div>
-                </div>-->
-            <!--</div>-->
-        </section>
-        <!-- End Pricing Area -->
     </br>
     </br>
     </br>

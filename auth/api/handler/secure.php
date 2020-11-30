@@ -19,7 +19,7 @@ return $decrypted;
 
 function SendEncryptedResponse($message)
 {
-   echo $message;
+   echo base64_encode($message);
    exit;
 }
 ?>

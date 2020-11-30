@@ -16,9 +16,9 @@ include("secure.php");
             return $_SERVER['REMOTE_ADDR'];
     }
 
-    if ($_GET['data'] != "")
+    if ($_POST['data'] != "")
     {
-	    $decoded = json_decode($_GET['data']);	
+	    $decoded = json_decode(base64_decode($_POST['data']));	
 
 	    $action = $decoded->{"action"};
 	    $program_key = $decoded->{"application_id"};
