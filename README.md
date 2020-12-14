@@ -1,6 +1,6 @@
 # Changelog
 
-v1.0 - Initial Release
+v1.0 - Initial Release  
 v2.0 - Added Full Encryption and SSL Pinning
 # Goals
 
