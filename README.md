@@ -22,7 +22,7 @@ If your looking for a good auth system for multiple languages try [cAuth](https:
 
 # Contact
 
-My Discord: Simp#0174
+My Discord: Simp#0174  
 My Main Website: [samzydev.xyz](https://samzydev.xyz)
 
 # Donate
