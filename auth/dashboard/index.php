@@ -334,11 +334,20 @@
                                 <div class="mt-container mx-auto">   
                                 <div class="t-content">
                                         <div class="t-uppercontent">
+                                            <h5>Encryption</h5>
+                                            <h6>Hey everybody! We finally have full encryption for the api. Along with SSL pinning.</h6>
+                                            <span class="">14 December, 2020</span>
+                                        </div>
+ 
+                                <br>
+                                    <div class="t-content">
+                                        <div class="t-uppercontent">
                                             <h5>Discord</h5>
                                             <h6>Hey everybody! We have released a new discord server! Join us <a href="https://discord.gg/tW39P3qMe6" target="_blank">here</a>.</h6>
                                             <span class="">2 November, 2020</span>
                                         </div>
-                                     </div>                  
+                                     </div>
+                                </div>                
                                 <br>                                
                                 <div class="t-content">
                                         <div class="t-uppercontent">
@@ -359,7 +368,7 @@
                                     <div class="t-content">
                                         <div class="t-uppercontent">
                                             <h5>Welcome!</h5>
-                                            <h6>This is the first announcement in the new Akiza.IO! page, I hope you like the new changes :)</h6>
+                                            <h6>This is the first announcement in the new Simpauth page, I hope you like the new changes :)</h6>
                                             <span class="">27 Sept, 2020</span>
                                         </div>
                                      </div>
