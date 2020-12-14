@@ -386,8 +386,20 @@
                       return $randomString;
                     }
                   }
+                  function GenerateEncKey() {
+                    for($i = 0; $i < 1; $i++) {
+                      $randomString = "";
+                      $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+                      $charactersLength = strlen($characters);
+                      for ($i = 0; $i < 32; $i++) {
+                        $randomString .= $characters[rand(0, $charactersLength - 1)];
+                      }
+                      return $randomString;
+                    }
+                  }
 
                 $auth_generated = GenerateAuthToken();
+                $enckey = GenerateEncKey();
                 $app_name = xss_clean(mysqli_real_escape_string($con, $_POST['program_name']));
 
                 if (trim($app_name) == '' || strlen($app_name) <= 0)
@@ -490,7 +502,7 @@
 
                         if ($boolcheck == 1)
                         {
-                            $querycreate = mysqli_query($con, "INSERT INTO `programs` (owner, name, authtoken, version, banned, clients) VALUES ('$username', '$app_name', '$auth_generated', 1.0, 0, 0)") or die(mysqli_error($con));
+                            $querycreate = mysqli_query($con, "INSERT INTO `programs` (owner, name, authtoken, enckey, version, banned, clients) VALUES ('$username', '$app_name', '$auth_generated', '$enckey', 1.0, 0, 0)") or die(mysqli_error($con));
                             if ($querycreate)
                             {
 
@@ -530,8 +542,9 @@
                                     <thead>
                                         <tr>
                                             <th>ID</th>
-                                            <th>Application name</th>
+                                            <th>Application Name</th>
                                             <th>Application Key</th>
+                                            <th>Application Encryption Key</th>
                                             <th>Version</th>
                                             <th>Total Users</th>
                                             <th>Banned</th>
@@ -567,6 +580,7 @@
                                                     <td>'.$row['id'].'</td>
                                                     <td>'.$row['name'].'</td>
                                                     <td>'.$row['authtoken'].'</td>
+                                                    <td>'.$row['enckey'].'</td>
                                                     <td>'.$row['version'].'</td>
                                                     <td>'.countAllUsersInProgram($row['authtoken']).'</td>
                                                     '.($row['banned'] == "1" ? "<td><span class=\"badge badge-danger\"> Banned </span></td>" : "<td><span class=\"badge badge-success\"> Unbanned </span></td>").'
@@ -626,7 +640,8 @@
                                         <tr>
                                             <th>ID</th>
                                             <th>Application Name</th>
-                                            <th>Application</th>
+                                            <th>Application Key</th>
+                                            <th>Application Encryption Key</th>
                                             <th>Version</th>
                                             <th>Total users</th>
                                             <th>Banned</th>

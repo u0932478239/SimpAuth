@@ -1,8 +1,8 @@
 <?php
-$myhost = ""; //Database Host
-$myuser = ""; //Databse Username
-$mypass = ""; //Database Password
-$mydb = ""; //Database Name
+$myhost = "";
+$myuser = "";
+$mypass = "";
+$mydb = "";
 $key = "2147828743"; //Don't touch this !
 
 $rootUrl = (!empty($_SERVER['HTTPS']) ? 'https' : 'https') . '://' . $_SERVER['HTTP_HOST'] . '';

@@ -461,13 +461,13 @@
                                             <div class="row">
                                                 <div class="col-lg-11 mx-auto">
                                                     <div class="row">
-                                                        <div class="col-xl-2 col-lg-12 col-md-4">
+                                                        <!--<div class="col-xl-2 col-lg-12 col-md-4">
                                                             <div class="upload mt-4 pr-md-4">
                                                                 <input type="file" id="input-file-max-fs" class="dropify" data-default-file="../assets/img/profile-16.jpg" data-max-file-size="2M" disabled/>
                                                                 <p class="mt-2"><i class="flaticon-cloud-upload mr-1"></i> Profile Picture</p>
 								<h9>(Under Development)</h9>
                                                             </div>
-                                                        </div>
+                                                        </div>-->
                                                         <div class="col-xl-10 col-lg-12 col-md-8 mt-md-0 mt-4">
                                                             <div class="form">
                                                                 <div class="row">
@@ -827,7 +827,7 @@
                                     </form>
                                 </div>
 
-                                <div class="col-xl-12 col-lg-12 col-md-12 layout-spacing">
+                                <!--<div class="col-xl-12 col-lg-12 col-md-12 layout-spacing">
                                     <form id="social" class="section social">
                                         <div class="info">
                                             <h5 class="">Link your discord account!</h5>
@@ -851,7 +851,7 @@
                                                 </div>                                                
                                             </div>
                                         </div>
-                                    </form>
+                                    </form>-->
                                     <br>
                                     <br>
                                     <br>
