@@ -18,10 +18,16 @@ Auth.GG - Outbuilt (Okay) - [Profile](https://github.com/Outbuilt)
 
 # Notes
 
-If your looking for a good auth system for multiple languages try https://cauth.me. I've used them before and the owner is really helpful!
-I am not going to be making any money off of this.
+If your looking for a good auth system for multiple languages try [cAuth](https://cauth.me). I've used them before and the owner is really helpful!
 
 # Contact
 
 My Discord: Simp#0174
 My Main Website: [samzydev.xyz](https://samzydev.xyz)
+
+# Donate
+
+If you would like to help make it posible for me to host this, you can donate using BTC andd BCH.    
+
+BTC Address: 32n3AfVM36ugBczzdtwkxC6Rai1so3ajf9  
+BCH Cash Address: bitcoincash:qzdp0c0n0c8skjfj3mhmfj0lahzt52ltzc4nq4e3jd  
