@@ -1,8 +1,0 @@
-[17-Oct-2020 20:58:50 Europe/Paris] PHP Notice:  Undefined variable: license in /home/akizibcq/public_html/handler/api.php on line 833
-[17-Oct-2020 20:59:00 Europe/Paris] PHP Notice:  Undefined variable: license in /home/akizibcq/public_html/handler/api.php on line 833
-[17-Oct-2020 21:01:18 Europe/Paris] PHP Notice:  Undefined variable: license in /home/akizibcq/public_html/handler/api.php on line 833
-[17-Oct-2020 21:10:20 Europe/Paris] PHP Notice:  Undefined variable: license in /home/akizibcq/public_html/handler/api.php on line 901
-[17-Oct-2020 21:10:58 Europe/Paris] PHP Notice:  Undefined variable: license in /home/akizibcq/public_html/handler/api.php on line 901
-[20-Oct-2020 10:09:52 Europe/Paris] PHP Notice:  Undefined variable: check_banned in /home/akizibcq/public_html/handler/api.php on line 158
-[20-Oct-2020 10:10:24 Europe/Paris] PHP Notice:  Undefined variable: check_banned in /home/akizibcq/public_html/handler/api.php on line 158
-[20-Oct-2020 10:10:25 Europe/Paris] PHP Notice:  Undefined variable: check_banned in /home/akizibcq/public_html/handler/api.php on line 158

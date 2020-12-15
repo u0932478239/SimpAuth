@@ -1,10 +1,30 @@
 <?php
-
-$PrivateKeyFile = "private.php";
-$PublicKeyFile  = "public.crt";
 include '../../includes/settings.php';
-include("secure.php");
-
+if ($_SERVER['HTTP_USER_AGENT'] !== "SimpAuth.V2")
+{
+    header("Location: https://beta.simpauth.xyz");
+    die();
+}
+class AES
+	{
+		var $key = "";
+		function __construct($SecretKey)
+		{
+			$this->key=$this->Pass2Key($SecretKey);
+		}
+		function Pass2Key($SecretKey)
+		{
+			return substr(base64_encode(pack('H*',hash("sha512", $SecretKey))), 0, 32);
+		}
+		function Encrypt($string = "")
+		{
+			return rtrim(base64_encode(mcrypt_encrypt(MCRYPT_RIJNDAEL_256, $this->key, $string, MCRYPT_MODE_CBC, $this->key)));
+		}
+		function Decrypt($string = "")
+		{
+			return rtrim(mcrypt_decrypt(MCRYPT_RIJNDAEL_256, $this->key, base64_decode($string), MCRYPT_MODE_CBC, $this->key));
+		}
+	}
     function getRealIP() {
     
             if (!empty($_SERVER['HTTP_CLIENT_IP']))
@@ -15,11 +35,42 @@ include("secure.php");
            
             return $_SERVER['REMOTE_ADDR'];
     }
-
-    if ($_GET['data'] != "")
+    function Encrypt($data, $enckey)
     {
-	    $decoded = json_decode($_GET['data']);	
-
+        $cipher=new AES($enckey);
+        $encrypted=$cipher->Encrypt($data);
+        return $encrypted;
+    }
+    function getEncKey($program)
+    {
+        $servername = "185.201.11.181";
+        $username = "u402869651_simpauth";
+        $password = "HarvestGeek2!";
+        
+        try {
+          $conn = new PDO("mysql:host=$servername;dbname=u402869651_simpauth", $username, $password);
+          // set the PDO error mode to exception
+          $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        } catch(PDOException $e) {
+          echo 'Error';
+          die();
+        }
+        $sql = "SELECT * FROM `programs` WHERE `authtoken` = '$program'";
+        $result = $conn->query($sql);
+        $row = $result->fetchAll(PDO::FETCH_COLUMN, 4);
+        $encryptionkey = $row[0];
+        return "$encryptionkey";
+    }
+    function SendEncryptedResponse($text)
+    {
+        print_r(Encrypt($text, getEncKey($_POST['program'])));
+    }
+    if ($_POST['data'] != "")
+    {
+        $pro = rawurldecode($_POST['program']);
+        $data = rawurldecode($_POST['data']);
+        $decoded = json_decode(base64_decode($_POST['data'], $_POST['program']));
+        
 	    $action = $decoded->{"action"};
 	    $program_key = $decoded->{"application_id"};
 	    $ip_visitor = getRealIP();
@@ -27,7 +78,7 @@ include("secure.php");
         switch ($action)
         {
             case "initialize":
-                $verify_program = mysqli_query($con, "SELECT * FROM `programs` WHERE `authtoken` = '$program_key'") or SendEncryptedResponse(json_encode(array("action" => "internal_error")));  
+                $verify_program = mysqli_query($con, "SELECT * FROM `programs` WHERE `authtoken` = '$program_key'") or  SendEncryptedResponse(json_encode(array("action" => "internal_error"))); 
                     
                 if (mysqli_num_rows($verify_program) > 0)
                 {
