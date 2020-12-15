@@ -1,7 +1,8 @@
 # Changelog
 
 v1.0 - Initial Release  
-v2.0 - Added Full Encryption and SSL Pinning
+v2.0 - Added Full Encryption and SSL Pinning  
+v2.1 - User Agent Requirements and Minor Updates
 # Goals
 
 None right now, if you have a suggestion dm me on Discord!
