@@ -1,16 +1,14 @@
-Download at download.html
-
 # Changelog
 
-v1.0 - Initial Release
-
+v1.0 - Initial Release  
+v2.0 - Added Full Encryption and SSL Pinning
 # Goals
 
-Add Encryption
+None right now, if you have a suggestion dm me on Discord!
 
 # About 
  
-This is going to be a free open source .NET (And more later) authentication systm.  
+SimpAuth is a free and opensource authentication solution for .NET (and maybe more later).
 
 # Credits
 
@@ -20,5 +18,16 @@ Auth.GG - Outbuilt (Okay) - [Profile](https://github.com/Outbuilt)
 
 # Notes
 
-If your looking for a good auth system for multiple languages try https://cauth.me. I've used them before and the owner is really helpful!
-I am not going to be making any money off of this.
+If your looking for a good auth system for multiple languages try [cAuth](https://cauth.me). I've used them before and the owner is really helpful!
+
+# Contact
+
+My Discord: Simp#0174  
+My Main Website: [samzydev.xyz](https://samzydev.xyz)
+
+# Donate
+
+If you would like to help make it posible for me to host this, you can donate using BTC andd BCH.    
+
+BTC Address: 32n3AfVM36ugBczzdtwkxC6Rai1so3ajf9  
+BCH Cash Address: bitcoincash:qzdp0c0n0c8skjfj3mhmfj0lahzt52ltzc4nq4e3jd  
