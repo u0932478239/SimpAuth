@@ -11,6 +11,7 @@ None right now, if you have a suggestion dm me on Discord!
 # About 
  
 SimpAuth is a free and opensource authentication solution for .NET.
+Check out our wiki [here](https://docs.simpauth.xyz)
 
 # Credits
 
