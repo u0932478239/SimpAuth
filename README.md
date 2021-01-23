@@ -10,13 +10,11 @@ None right now, if you have a suggestion dm me on Discord!
 
 # About 
  
-SimpAuth is a free and opensource authentication solution for .NET (and maybe more later).
+SimpAuth is a free and opensource authentication solution for .NET.
 
 # Credits
 
-Original Source Code - https://bit.ly/2TEvYUL - Unkown (I don't actually know who leaked them first)  
-cAuth - Fingu (The Best) - [Profile](https://github.com/Finguimbrine)  
-Auth.GG - Outbuilt (Okay) - [Profile](https://github.com/Outbuilt)  
+Original Source Code - [REDACTED]
 
 # Notes
 
@@ -24,7 +22,7 @@ If your looking for a good auth system for multiple languages try [cAuth](https:
 
 # Contact
 
-My Discord: </Simp>#7180   
+My Discord: SamzyDev#7108
 My Main Website: [samzydev.xyz](https://samzydev.xyz)
 
 # Donate
