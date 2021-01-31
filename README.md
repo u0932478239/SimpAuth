@@ -1,3 +1,5 @@
+# NO SUPPORT WILL BE GIVEN TO SET UP YOUR OWN AUTHENTICATION.
+
 # Changelog
 
 v1.0 - Initial Release  
