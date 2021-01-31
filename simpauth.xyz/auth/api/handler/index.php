@@ -43,12 +43,12 @@ class AES
     }
     function getEncKey($program)
     {
-        $servername = "185.201.11.181";
-        $username = "u402869651_simpauth";
-        $password = "HarvestGeek2!";
+        $servername = "database ip";
+        $username = "database name";
+        $password = "database password";
         
         try {
-          $conn = new PDO("mysql:host=$servername;dbname=u402869651_simpauth", $username, $password);
+          $conn = new PDO("mysql:host=$servername;dbname=database name", $username, $password);
           // set the PDO error mode to exception
           $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         } catch(PDOException $e) {
