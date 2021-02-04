@@ -126,7 +126,7 @@
                         </h5>
 
                         <p>
-                            You agree to defend, indemnify and hold SimpAuth harmless from any claim or demand, including reasonable attorneys' fees, made by any third party due to or arising out of any violation of these Terms by you; any content or materials you submit or otherwise transmit through our System or Services; or your violation of any rights of another. Akiza.IO reserves the right, at its own expense, to assume the exclusive defense and control of any matter otherwise subject to defense by you. This Section shall survive termination of these Terms.
+                            You agree to defend, indemnify and hold SimpAuth harmless from any claim or demand, including reasonable attorneys' fees, made by any third party due to or arising out of any violation of these Terms by you; any content or materials you submit or otherwise transmit through our System or Services; or your violation of any rights of another. SimpAuth reserves the right, at its own expense, to assume the exclusive defense and control of any matter otherwise subject to defense by you. This Section shall survive termination of these Terms.
                         </p>
                     </section>
 
