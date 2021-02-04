@@ -11,7 +11,8 @@ v2.1.1 - Add a blank database. Download it [here](https://anonfiles.com/j37dg6Ce
 None right now, if you have a suggestion dm me on Discord!
 
 # About 
- 
+
+YOU MUST HAVE MCRYPT FOR THE ENCRYPTION TO WORK
 SimpAuth is a free and opensource authentication solution for .NET.  
 Check out our wiki [here](https://docs.simpauth.xyz)
 
