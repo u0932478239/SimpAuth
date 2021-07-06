@@ -1,7 +1,6 @@
-# NO SUPPORT WILL BE GIVEN TO SET UP YOUR OWN AUTHENTICATION.  
+# How to Use  
 
-# IF YOU WISH TO USE SIMPAUTH WITHOUT SETTING IT UP YOURSELF. YOU MAY USE MY [PERSONAL WEBSITE](https://samzy.dev/auth)  
-
+You can use SimpAuth (SamzyAuth) at my website, https://samzy.dev
 # Changelog
 
 v1.0 - Initial Release  
