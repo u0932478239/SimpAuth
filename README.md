@@ -1,6 +1,6 @@
 # How to Use  
 
-You can use SimpAuth (SamzyAuth) at my website, https://samzy.dev
+You can use SimpAuth (SamzyAuth) at my website, https://auth.samzy.dev
 # Changelog
 
 v1.0 - Initial Release  
